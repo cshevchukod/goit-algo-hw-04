@@ -74,7 +74,7 @@ def measure(func, arr, number=3, repeat_n=5):
     return min(times) / number
 
 
-def main():
+def maintask():
     seed(42)  # щоб random-дані були стабільні при кожному запуску
 
     sizes = [100, 500, 1000, 2000, 5000]
@@ -102,4 +102,4 @@ def main():
             print(f"{n}\t{t_ins:.8f}\t{t_mrg:.8f}\t{t_tim:.8f}")
 
 if __name__ == "__main__":
-    main()
+    maintask()
