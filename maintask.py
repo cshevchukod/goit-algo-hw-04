@@ -115,9 +115,9 @@ def maintask():
 
             print(
                 f"{n}\t"
-                f"{results['insertion_sort']:.6f}\t"
-                f"{results['merge_sort']:.6f}\t"
-                f"{results['timsort(sorted)']:.6f}"
+                f"{results['insertion_sort']:.8f}\t"
+                f"{results['merge_sort']:.8f}\t"
+                f"{results['timsort(sorted)']:.8f}"
             )
 
 
