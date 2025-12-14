@@ -82,7 +82,7 @@ def measure(func, arr, number=3, repeat_n=5):
     times = repeat(lambda: func(arr), repeat=repeat_n, number=number)
     return min(times) / number  # час одного запуску (сек)
 
-def main():
+def maintask():
     seed(42)
 
     algorithms = [
@@ -122,4 +122,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    maintask()
